@@ -28,3 +28,13 @@ In order to use the automatic generator, you have to specify a  _level_ . The _l
 
 The verbs were sorted by frequency using the [Perseus Vocabulary Tool's](http://www.perseus.tufts.edu/hopper/vocablist?lang=la) _weighted frequency_ attribute. the document pool used contained the prominent anthers of the classical period. Trainer did not distinguished between differnt verbs of the same root like _volo(irregular)_ and _volo(first)_: they both have the same frequency. (the highest of the two).
 
+### Inflection selection
+
+Inflection selection is quite straight-forward. It should be noted, however, that the inflections which regularly  use the _perfect passive participle_ (such as _indicative passive perfect_), are missing from the Trainer for all verbs. To practice those, you can use the participle itself.
+
+### Missing mutations
+
+Many verbs cannot be inflected in all forms. The verb [_placeo_](https://en.wiktionary.org/wiki/placeo#Latin), for example,  is missing imperatives, or the verb [_fido_](https://en.wiktionary.org/wiki/fido#Latin), is missing supine. The Trainer will not ask this mutations from the user, and will note those missing inflections in the window. Note that deponent verbs like [_for_](https://en.wiktionary.org/wiki/for#Latin) are missing  the inflections which using the _perfect passive participle_ (like  _indicative **active** perfect_). To practice those, you can use the participle itself.
+
+In case a verb was selected, which is not in the Trainer list, it will be noted in the window. It can happen either when the verb is simply not existing in the Wiktionary, or that Trainer expects parentheses for this verb. 
+
