@@ -30,7 +30,8 @@ The verbs were sorted by frequency using the [Perseus Vocabulary Tool's](http://
 
 ### Inflection selection
 
-Inflection selection is quite straight-forward. It should be noted, however, that the inflections which regularly  use the _perfect passive participle_ (such as _indicative passive perfect_), are missing from the Trainer for all verbs. To practice those, you can use the participle itself.
+Inflection selection is quite straight-forward. It should be noted, however, that the inflections which regularly  use the _perfect passive participle_ (such as _indicative passive perfect_), are missing from the Trainer for all verbs, and can't be selected. To practice those, you can use the participle itself. 
+You can select more than one inflection.
 
 ### Missing mutations
 
@@ -38,3 +39,12 @@ Many verbs cannot be inflected in all forms. The verb [_placeo_](https://en.wikt
 
 In case a verb was selected, which is not in the Trainer list, it will be noted in the window. It can happen either when the verb is simply not existing in the Wiktionary, or that Trainer expects parentheses for this verb. 
 
+### Save session parameters
+
+Selecting the inflections and auto verbs-generation settings might be tedious, especially when we are using them for long.  In order to avoid re-selection of those parameters,  the selected parameters are saved in address bar of the browser. Every change of the selected inflections or every click on "generate" button, will trigger a change in the address bar that will contain the selected parameters. If you want to save the settings simply copy the like for the address bar and save it for future use. When you use this like the Trainer will open with the selected parameters, and the verbs already generated - so you can start practice right away.
+
+If you want to save the verbs themselves (rather than the verbs-generation parameters), you should copy the text in the verbs box, and save this text for future use. To use the saved list, you have to paste it in the verbs box. 
+
+### Contact information 
+
+todo
