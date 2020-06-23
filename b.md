@@ -11,7 +11,7 @@ Several different verbs might have the same verb-root. [_Volo_](https://en.wikti
 
 Unfortunately, the cases different conjugation of the _same_ type, are overlooked by the Trainer. Example to this is the verb [_edo_](https://en.wiktionary.org/wiki/edo#Latin) that has two different  conjugation tables of the third conjugation-type. In such cases the Trainer will have only one verb with parentheses, and will take the correct answer from the **second** table, so for" _edo(third)_" and "_indicative active perfect 1st singular_" the correct answer would be _edidi_ (meaning I produced) and not _edi_ (meaning I ate).
 
-To sum everything up, we can look at the verb [_sero_](https://en.wiktionary.org/wiki/sero#Latin) which has 3 distinct conjugation: two of them of the third type, while the other is of the first. The Trainer will split this verb into two: one of the first conjugation-type and the other of third conjugation-type (the second table will be selected).
+To sum everything up, we can look at the verb [_sero_](https://en.wiktionary.org/wiki/sero#Latin) which has 3 distinct conjugations: two of them of the third type, while the other is of the first. The Trainer will split this verb into two: one of the first conjugation-type and the other of third conjugation-type (the second table will be selected).
 
 ### Verb Selection
 There are 3 ways to select verb to practice on:
@@ -19,3 +19,11 @@ There are 3 ways to select verb to practice on:
  1. **Manual selection from list**:  in the list you can search for your verbs from the Trainer list, and select them.  Selecting a verb from the list, will append it to already selected verbs displayed in the box. 
  2. **Writing directly in the verbs box**:  it is possible to write the verbs directly in the selected-verbs box. Make sure to have the verbs comma separated.  This option is recommended only in cases you have predefined list of verbs - for example when you saved the verbs from previous session - you can simply paste them in the box. **In this way you can load your verbs easily**. [Note that you may enter a verb which will be ultimately removed from the Trainer if it's missing from the list:  _volo_ , for example, will be removed because it is missing from the list - Trainer expected _volo(first)_ or _volo(irregular)_ .
 3. **Automatic generator**: you can tell the Trainer to automatically generate verbs. To use this option you should specify 1) how many verbs you want to be generated 2) the level. Then you should click "Generate". The generated verbs will override  the current selected verbs.
+
+### Level
+
+In order to use the automatic generator, you have to specify a  _level_ . The _level_ parameter basically tells the automatic generator which verbs are entitled to be generated.  The goal of this parameter  is to generate verbs that the user is likely to be familiar with, rather than complete random verbs from the list.  To achieve this, the verbs were sorted by **frequency** . Thus, selecting "Top 10%" option means that the verbs will be generated from 10% of the verbs which are the most frequent (pool of 537 verbs). The beginner may find this tool helpful for increasing his vocabulary of frequent verbs.   
+
+#### Frequencey
+
+The verbs were sorted by frequency using the [Perseus Vocabulary Tool's](http://www.perseus.tufts.edu/hopper/vocablist?lang=la) _weighted frequency_ attribute. the document pool used contained the prominent anthers of the classical period. 
