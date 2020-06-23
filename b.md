@@ -9,4 +9,13 @@ The Trainer uses 5371 verbs from wiktionary. This is by no means the attested nu
 
 Several different verbs might have the same verb-root. [_Volo_](https://en.wiktionary.org/wiki/volo#Latin), for example, has two distinct conjugation tables: for the first conjugation (meaning to fly) and a irregular conjugation (meaning to wish). As long as the verb has different conjugation types, as with _volo_, the Trainer distinguishes between them by adding parentheses containing the conjugation types, hence the Trainer does not have the verb _volo_, but has instead two distict verbs _volo(first)_ and _volo(irregular)_.
 
-Unfortunately, the cases different conjugation of the _same_ type, are overlooked by the Trainer. Example to this is the verb [_edo_](https://en.wiktionary.org/wiki/volo#Latin) that has two different  conjugation table of the conjugation-type. In such cases the Trainer  
+Unfortunately, the cases different conjugation of the _same_ type, are overlooked by the Trainer. Example to this is the verb [_edo_](https://en.wiktionary.org/wiki/edo#Latin) that has two different  conjugation tables of the third conjugation-type. In such cases the Trainer will have only one verb with parentheses, and will take the correct answer from the **second** table, so for" _edo(third)_" and "_indicative active perfect 1st singular_" the correct answer would be _edidi_ (meaning I produced) and not _edi_ (meaning I ate).
+
+To sum everything up, we can look at the verb [_sero_](https://en.wiktionary.org/wiki/sero#Latin) which has 3 distinct conjugation: two of them of the third type, while the other is of the first. The Trainer will split this verb into two: one of the first conjugation-type and the other of third conjugation-type (the second table will be selected).
+
+### Verb Selection
+There are 3 ways to select verb to practice on:
+
+ 1. **Manual selection from list**:  in the list you can search for your verbs from the Trainer list, and select them.  Selecting a verb from the list, will append it to already selected verbs displayed in the box. 
+ 2. **Writing directly in the verbs box**:  it is possible to write the verbs directly in the selected-verbs box. Make sure to have the verbs comma separated.  This option is recommended only in cases you have predefined list of verbs - for example when you saved the verbs from previous session - you can simply paste them in the box. **In this way you can load your verbs easily**. [Note that you may enter a verb which will be ultimately removed from the Trainer if it's missing from the list:  _volo_ , for example, will be removed because it is missing from the list - Trainer expected _volo(first)_ or _volo(irregular)_ .
+3. **Automatic generator**: you can tell the Trainer to automatically generate verbs. To use this option you should specify 1) how many verbs you want to be generated 2) the level. Then you should click "Generate". The generated verbs will override  the current selected verbs.
